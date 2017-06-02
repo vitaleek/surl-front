@@ -1,0 +1,16 @@
+<br>
+<label><h3>Guest mode</h3></label><br>
+<label>List of links including the <string> tag {{tag}} </string> </label>
+<br>
+<br>
+
+<table>
+		<tr>
+			<th class = "col4">Short URL</th>  <th class = "col5">Description</th>  <th class = "col6">Tags</th>
+		</tr>
+	{{#each rs as |element|}}
+		<tr>
+			<td class = "col4">{{element.ShortLink}}</td>  <td class = "col5">{{element.Description}} </td> <td class = "col6">{{element.Tags}}</td>
+		</tr>
+	{{/each}}
+</table>

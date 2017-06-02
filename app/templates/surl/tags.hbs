@@ -1,0 +1,24 @@
+<br>
+<label><h3>Guest mode</h3></label><br>
+<br>
+
+	<table>
+		<tr>
+			<td><br>URL: <br></td><td>{{url}}</td>
+		</tr>
+		<tr>
+			<td><br>Description: <br></td><td>{{desc}}</td>
+		</tr>
+		<tr>
+			<td><br>Tags array: <br></td><td>
+			{{#each tags as |tag|}}
+			<button {{action "linkList" tag}}>{{tag}} </button>
+			{{/each}}</td>
+		</tr>
+			
+	</table>
+<br>
+<br>
+<br>
+
+<label>Click the tag to print list of corresponding URLs</label>

@@ -1,0 +1,29 @@
+<br>
+<br>
+<label>Statistics about the usage of your URLs</label>
+<br>
+<br>
+	
+	
+	<table>
+		<tr>
+			<th class="col1"><strong>URL</strong></th><th class="col2"><strong>Usage Statistics</strong></th><th class="col3"><strong>Edit</strong></th>
+		</tr>
+	</table>
+	<table>
+	{{#each _rs as |element|}}	
+		<tr>
+			<td class="col1">{{element.ShortLink}}</td> <td class="col2">{{element.Redirect}}</td> <td class="col3"><button id = {{element.ShortLink}} {{action "toMemory" element}} ><strong>Edit</strong></button><br><br></td>
+		</tr>
+	{{/each}}	
+	</table>
+{{url-reminder}}	
+	
+<br>
+<br>
+
+<br>
+<br>
+
+
+

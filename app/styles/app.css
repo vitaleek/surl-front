@@ -1,0 +1,172 @@
+html, body {
+	background: #e6e6e6;
+}
+# all{
+	line-height: 1.4em;
+	background: #e6e6e6;
+	
+	width: 100px;
+	
+	font-weight: 300;
+	
+}
+button{
+	
+}
+button.btn{
+	height: 40px;
+	width: 300px;
+}
+
+#menu {
+	height: 40px;
+	width: 100px;
+	
+}
+
+h1 {
+	width: 650px;
+	font-size: 40px;
+	font-weight: 100;
+	text-align: center;
+	background: #eeeeee;
+	
+}
+input{
+	width: 300px;
+	height: 30px;
+	
+	background: rgba(0, 0, 0, 0.003);
+	box-shadow: inset 0 -2px 1px rgba(0,0,0,0.03);
+}
+
+input[type="button"]{
+	width: 100px;
+	height: 40px;
+}
+
+#main {
+	width: 650px;
+	border-top: 1px solid #e6e6e6;
+	border-bottom: 1px solid #e6e6e6;
+	background: #eeeeee;
+}
+
+#footer {
+	background: #eeeeee;
+	width: 650px;
+}
+
+#main-menu {
+	margin-top: 20px;
+	text-align: center;	
+}
+
+#info {
+	margin: 65px auto 0;
+	color: #bfbfbf;
+	font-size: 10px;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+	text-align: center;
+	background: #eeeeee;
+	width: 650px;
+}
+#messages{
+	font-size: 12px;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+	float: left;
+}
+
+button.logbtn{
+	width: 100px;
+	height: 40px;
+}
+
+#error {
+	text-color: 	
+}
+#tag1{
+	width: 50px;
+	height: 30px;
+	background: rgba(0, 0, 0, 0.003);
+	box-shadow: inset 0 -2px 1px rgba(0,0,0,0.03);
+}
+#tag2{
+	width: 50px;
+	height: 30px;
+	background: rgba(0, 0, 0, 0.003);
+	box-shadow: inset 0 -2px 1px rgba(0,0,0,0.03);
+}
+#tag3{
+	width: 50px;
+	height: 30px;
+	background: rgba(0, 0, 0, 0.003);
+	box-shadow: inset 0 -2px 1px rgba(0,0,0,0.03);
+}
+#tag4{
+	width: 50px;
+	height: 30px;
+	background: rgba(0, 0, 0, 0.003);
+	box-shadow: inset 0 -2px 1px rgba(0,0,0,0.03);
+}
+#tag5{
+	width: 50px;
+	height: 30px;
+	background: rgba(0, 0, 0, 0.003);
+	box-shadow: inset 0 -2px 1px rgba(0,0,0,0.03);
+}
+#url{
+	width: 300px;
+}
+#statistics{
+	width: 120px;
+}
+#edit{
+	width: 120px;
+}
+#logo {
+    height: 100px;
+    width: 160px;
+    float: right;
+    margin-right: 2px;
+	margin-top: 2px;
+}
+
+table{
+	width: 98%;
+	text-align: center;
+}
+td {
+    border: 1px solid black;
+	
+}
+td.log{
+	border: 0px;
+}
+
+th {
+    border: 1px solid black;
+	
+}
+th.log{
+	border: 0px;
+}
+
+.col1{
+	width: 260px;
+}
+.col2{
+	width: 160px;
+	
+}
+
+.col4{
+	width: 30px;
+}
+.col5{
+	width: 100px;
+	
+}
+.col6{
+	width: 100px;
+}

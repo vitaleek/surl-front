@@ -1,0 +1,58 @@
+<br>
+<label><h3>Edit mode for your URL's attributes:</h3></label>
+<br>
+<label>You can change the description or tags</label>
+<br>
+<br>
+
+	<table>
+		<tr>
+			<td>Your URL:<br></td><td>{{linkset.ShortLink}}</td>
+		</tr>
+		<tr>
+			<td>Description:<br></td><td>{{linkset.Description}}</td>
+		</tr>
+		<tr>
+			<td>Tags array:<br></td><td>{{linkset.Tags}}</td>
+		</tr>
+		<tr>
+			<td>New description <br>(empty input = no changes!)</td><td><input type="text" id="description"/></td>
+		</tr>
+		<tr>
+			<td>New tags array <br>(empty inputs = no changes!)</td><td>
+	<div id = "input">
+	{{input value="" id="tag1"}}
+	{{input value="" id="tag2"}}
+	{{input value="" id="tag3"}}
+	{{input value="" id="tag4"}}
+	{{input value="" id="tag5"}}
+</div></td>
+		</tr>
+		
+	</table>
+
+
+
+
+<br><br>
+	
+	
+	
+	<button {{action "sendNewLink"}}><strong>Save changes</strong></button>
+	
+	<br><br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{{outlet}}
